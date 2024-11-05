@@ -1,8 +1,8 @@
 $min = Get-Date '08:00'
 $max = Get-Date '17:30'
 $now = Get-Date
-$Username = "admin"
-$Password = "Spr0cket2011!" | ConvertTo-SecureString -AsPlainText -Force
+$Username = "insert-username-here"
+$Password = "insert-password-here" | ConvertTo-SecureString -AsPlainText -Force
 $IP = "192.168.40.57"
 
 Import-Module PowerArubaSW
